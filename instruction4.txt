@@ -1,0 +1,6 @@
+LW r5 r1
+ADD r1 r5 r10
+LW r6 r2
+SUB r8 r6 r5
+ADD r2 r2 r10
+BNE r4 r2 LOOP
